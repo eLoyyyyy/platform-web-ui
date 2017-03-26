@@ -5,6 +5,7 @@
 .mdl-card {
     min-height: 0;
     width: 100%;
+    padding-left: 168px;
 }
 
 .content-grid {
@@ -59,6 +60,9 @@ a:hover, a:focus {
     display: block;
     max-width: 100%;
     height: auto;
-    padding: 0 15px 15px 0;
-    float: left;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
 }
